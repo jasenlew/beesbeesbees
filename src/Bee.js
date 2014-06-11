@@ -4,7 +4,7 @@ var Bee = function(age, color, food) {
 	
 	this.age = 5;
 	this.color = "yellow";
-	this.job = "keep on growing";
+	this.job = "keep on growing";		// QUESTION: SHOULD THE VARIABLE NAME BEGIN WITH AN UNDERSCORE, BECAUSE IT IS A VARIABLE NOT INTENDED FOR USER INTERACTION?
 
 	this.honeyPot = 0;
 
