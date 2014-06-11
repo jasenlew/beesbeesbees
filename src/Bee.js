@@ -1,6 +1,6 @@
-var Bee = function(age, color, food) {
+var Bee = function() {
 
-	Grub.call(this);  // QUESTION: CAN I PASS IN 5 AND YELLOW AS SEPARATE ARGUMENTS AFTER "this"?
+	Grub.call(this);
 	
 	this.age = 5;
 	this.color = "yellow";

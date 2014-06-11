@@ -1,6 +1,6 @@
 var HoneyMakerBee = function() {
 
-	Bee.call(this);
+	Bee.call(this);  // QUESTION: WHAT IS EXACTLY HAPPENING HERE? 
 
 	this.age = 10;
 	this.job = "make honey";
