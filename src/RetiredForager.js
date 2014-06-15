@@ -9,7 +9,7 @@ var RetiredForagerBee = function() {
 
 };
 
-RetiredForagerBee.prototype = Object.create(Grub.prototype);
+RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
 RetiredForagerBee.prototype.constructor = RetiredForagerBee;
 
 RetiredForagerBee.prototype.forrage = function () {
